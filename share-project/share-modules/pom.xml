@@ -13,6 +13,7 @@
         <module>share-gen</module>
         <module>share-job</module>
         <module>share-file</module>
+        <module>share-device</module>
     </modules>
 
     <artifactId>share-modules</artifactId>
@@ -21,5 +22,12 @@
     <description>
         share-modules业务模块
     </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.share</groupId>
+            <artifactId>share-common-security</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
